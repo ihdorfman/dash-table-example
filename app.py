@@ -15,7 +15,7 @@ import pandas as pd
 myheading = "Best Craft Beers in DC"
 mysubheading = "August 2019"
 tabtitle = 'python rocks'
-filename = 'dc-breweries.csv'
+filename = 'Number_of_Deaths_for_Selected_Causes_among_Maryland_Residents.csv'
 sourceurl = 'https://www.beeradvocate.com/beer/top-rated/us/dc/'
 githublink = 'https://github.com/austinlasseter/dash-table-example'
 

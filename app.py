@@ -12,12 +12,12 @@ import pandas as pd
 
 
 ########### Define your variables ######
-myheading = "Best Craft Beers in DC"
-mysubheading = "August 2019"
-tabtitle = 'python rocks'
+myheading = "Number of Deaths among Maryland Residents (Selected Causes)"
+mysubheading = "1992-2017"
+tabtitle = 'Maryland Health'
 filename = 'Number_of_Deaths_for_Selected_Causes_among_Maryland_Residents.csv'
-sourceurl = 'https://www.beeradvocate.com/beer/top-rated/us/dc/'
-githublink = 'https://github.com/austinlasseter/dash-table-example'
+sourceurl = 'https://opendata.maryland.gov/Health-and-Human-Services/Number-of-Deaths-for-Selected-Causes-among-Marylan/vbug-jt5v'
+githublink = 'https://github.com/ihdorfman/dash-table-example'
 
 ########### Set up the data
 df = pd.read_csv(filename)
